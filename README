@@ -1,5 +1,5 @@
-Enumeration version 0.01
-=================
+Enumeration version 0.02
+========================
 
 This class provides an enumeration class for Perl.  For those who are
 unfamiliar with the concept from other programming language, an
@@ -8,7 +8,7 @@ a fixed list specified by the class.
 
 INSTALLATION
 
-To install this module type the following:
+To install this module use the following commands:
 
    perl Build.PL
    perl Build
@@ -22,7 +22,7 @@ If you do not have Module::Build, you can use the older steps:
    make test
    make install
 
-On Windows, you will need to use nmake instead of make.
+On Windows, you will need to use 'nmake' instead of 'make'.
 
 DEPENDENCIES
 

@@ -1,17 +1,21 @@
+=for gpg
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 =head1 NAME
 
 Enumeration - Yet Another enumeration class implementation.
 
 =head1 VERSION
 
-This is version 0.01 of Enumeration, of March 13, 2008.
+This is version 0.02 of Enumeration, of March 24, 2008.
 
 =cut
 
 use strict;
 use warnings;
 package Enumeration;
-$Enumeration::VERSION = '0.01';
+$Enumeration::VERSION = '0.02';
 
 use Scalar::Util qw(refaddr);
 
@@ -508,3 +512,15 @@ can offer only my sincere sympathy and apologies, and promise to
 endeavor to improve the software.
 
 =cut
+
+=begin gpg
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Cygwin)
+
+iEYEARECAAYFAkfoGewACgkQwoSYc5qQVqrcdQCfdBD+BakhqwqiKnrQnU0yvmKC
+VLgAn3KLtkjM294bCHN8m54iCGZ+Rw+Z
+=NRiJ
+-----END PGP SIGNATURE-----
+
+=end gpg

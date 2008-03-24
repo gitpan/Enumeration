@@ -8,8 +8,9 @@ my $builder = Module::Build->new(
     dist_author         => 'Eric J. Roode <roode@cpan.org>',
     dist_version_from   => 'lib/Enumeration.pm',
     build_requires => {
-        'Test::More' => 0,
+        'Test::More' => '0.10',
     },
+    sign => 1,
     add_to_cleanup      => [ 'Enumeration-*' ],
 );
 
