@@ -1,6 +1,6 @@
 ---
 name: Enumeration
-version: 0.02
+version: 0.03
 author:
   - 'Eric J. Roode <roode@cpan.org>'
 abstract: Yet Another enumeration class implementation.
@@ -12,7 +12,7 @@ build_requires:
 provides:
   Enumeration:
     file: lib/Enumeration.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.2807
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

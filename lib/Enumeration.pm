@@ -8,14 +8,14 @@ Enumeration - Yet Another enumeration class implementation.
 
 =head1 VERSION
 
-This is version 0.02 of Enumeration, of March 24, 2008.
+This is version 0.03 of Enumeration, of March 26, 2008.
 
 =cut
 
 use strict;
 use warnings;
 package Enumeration;
-$Enumeration::VERSION = '0.02';
+$Enumeration::VERSION = '0.03';
 
 use Scalar::Util qw(refaddr);
 
@@ -495,6 +495,10 @@ Copyright (c) 2008 by Eric J. Roode, ROODE I<-at-> cpan I<-dot-> org
 
 All rights reserved.
 
+To avoid my spam filter, please include "Perl", "module", or this
+module's name in the message's subject line, and/or GPG-sign your
+message.
+
 This module is copyrighted only to ensure proper attribution of
 authorship and to ensure that it remains available to all.  This
 module is free, open-source software.  This module may be freely used
@@ -518,9 +522,9 @@ endeavor to improve the software.
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.8 (Cygwin)
 
-iEYEARECAAYFAkfoGewACgkQwoSYc5qQVqrcdQCfdBD+BakhqwqiKnrQnU0yvmKC
-VLgAn3KLtkjM294bCHN8m54iCGZ+Rw+Z
-=NRiJ
+iEYEARECAAYFAkfqxEIACgkQwoSYc5qQVqrvSwCcDFVRb/5BAIVrA/QB6An8v6UM
+srQAoInszO8WzxLTNqpdiwFLHMTyHGSn
+=O1zc
 -----END PGP SIGNATURE-----
 
 =end gpg
